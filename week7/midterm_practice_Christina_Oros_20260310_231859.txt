@@ -1,0 +1,90 @@
+==========================================
+  COP2250 MIDTERM PRACTICE QUIZ REPORT
+==========================================
+  Student: Christina Oros
+  Date:    2026-03-10 23:18:59
+  Score:   14 / 15
+  Pct:     93%
+==========================================
+
+Question 1: [CH3 - SELECTIONS] When would you use a switch statement instead of if-else?
+  Student answer:  Use a switch when one variable is checked against many specific values
+  Correct answer:  When comparing ONE variable against multiple specific constant values (like menu options). Switch is cleaner than a long if-else chain.
+  Self-assessed:   YES
+
+Question 2: [CH3 - SELECTIONS] What happens if you forget 'break' in a switch case?
+  Student answer:  If you forget break, the program will continue to the next case and run it too
+  Correct answer:  Fall-through: execution continues into the next case without checking the condition.
+  Self-assessed:   YES
+
+Question 3: [TERMINAL] What two terminal commands compile and run Hello.java?
+  Student answer:  Compile: javac Hello.java Run: java Hello[
+  Correct answer:  javac Hello.java (compile to bytecode) then java Hello (run — no .java extension).
+  Self-assessed:   YES
+
+Question 4: [TERMINAL] What does 'pwd' stand for and what does it do?
+  Student answer:  print working direcory
+  Correct answer:  Print Working Directory. Shows the full path of your current location in the filesystem.
+  Self-assessed:   YES
+
+Question 5: [CH1 - INTRO] What's the difference between print() and println()?
+  Student answer:  println brings you to a new line after having an output, the first one stays in the same line
+  Correct answer:  print() outputs text and stays on the same line. println() outputs text and adds a newline character.
+  Self-assessed:   YES
+
+Question 6: [CH5 - LOOPS] What's the output of: for(int i = 0; i < 5; i++) System.out.print(i + " ");
+  Student answer:  0 1 2 3 4
+  Correct answer:  0 1 2 3 4  (starts at 0, stops BEFORE 5)
+  Self-assessed:   YES
+
+Question 7: [CH5 - LOOPS] What does 'break' do inside a loop? What about 'continue'?
+  Student answer:  break-stops loop imedidietly , continue- skips and continues to the next loop
+  Correct answer:  break exits the loop entirely. continue skips the rest of the current iteration and goes to the next one.
+  Self-assessed:   YES
+
+Question 8: [TERMINAL] What's the difference between 'ls' and 'ls -la'?
+  Student answer:  ls files in directory, other shows all even the hdden one, such like permissions
+  Correct answer:  ls shows files/folders. ls -la shows ALL files (including hidden dot-files) with details like permissions, size, and date.
+  Self-assessed:   YES
+
+Question 9: [CH5 - LOOPS] When would you use a WHILE loop vs a FOR loop?
+  Student answer:  Use for when the number of repeats is known, while when it’s unknown.
+  Correct answer:  FOR when you know how many times to iterate. WHILE when you loop until a condition changes (unknown iterations).
+  Self-assessed:   YES
+
+Question 10: [TERMINAL] What does 'cd ..' do? What about 'cd ~'?
+  Student answer:  .. lists up one folder, _ home directory
+  Correct answer:  cd .. goes up one directory. cd ~ goes to your home directory.
+  Self-assessed:   YES
+
+Question 11: [CH4 - MATH/STRING] What does Math.random() return?
+  Student answer:  Math.random() returns a decimal number between 0 (inclusive) and 1 (exclusive)
+  Correct answer:  A random double value >= 0.0 and < 1.0. To get 1-10: (int)(Math.random() * 10) + 1
+  Self-assessed:   YES
+
+Question 12: [CH2 - VARIABLES] What is the modulus operator (%) and what does 17 % 5 return?
+  Student answer:  3
+  Correct answer:  Modulus returns the remainder of division. 17 % 5 = 2 (17 divided by 5 is 3 remainder 2).
+  Self-assessed:   NO
+
+Question 13: [CH5 - LOOPS] What are the three types of loops in Java?
+  Student answer:  do-while, while , for
+  Correct answer:  for loop, while loop, do-while loop.
+  Self-assessed:   YES
+
+Question 14: [CH7 - ARRAYS] What happens if you access array index [10] on an array of size 10?
+  Student answer:  You get an ArrayIndexOutOfBoundsException because valid indexes are 0–9
+  Correct answer:  ArrayIndexOutOfBoundsException — valid indices are 0-9.
+  Self-assessed:   YES
+
+Question 15: [CH1 - INTRO] T/F: Java is case-sensitive. 'Main' and 'main' are the same.
+  Student answer:  no
+  Correct answer:  FALSE. Java IS case-sensitive. Main and main are different identifiers.
+  Self-assessed:   YES
+
+==========================================
+  Generated: 2026-03-10 23:18:59
+  Pool: 40 questions
+  Asked: 15 questions
+  This report is auto-generated.
+==========================================

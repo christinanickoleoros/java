@@ -8,7 +8,7 @@ import java.util.Scanner;
  * and displays them in increasing order.
  */
 
-public class YourName_Chapter3_Assignment4 {
+public class Coros_Chapter3_Assignment4 {
 
     // Method to sort and display three numbers
     public static void displaySortedNumbers(double num1, double num2, double num3) {
